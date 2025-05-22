@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU Lesser General Public License version 3 (LGPLv3)"
+
+[[mods]]
+modId="qlm"
+version="1.0.6"
+displayName="\u4E03\u96F6\u55B5\u81EA\u5236mod"
+displayURL="https://www.qlm.org.cn"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="SevenZeroMeow"
+description="\u4E03\u96F6\u55B5\u81EA\u5236mod"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.qlm]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

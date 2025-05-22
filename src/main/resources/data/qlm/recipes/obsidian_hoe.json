@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "obsidian_hoe",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:debug_stick"
+    }
+  ],
+  "result": {
+    "item": "qlm:obsidianhoe",
+    "count": 1
+  }
+}

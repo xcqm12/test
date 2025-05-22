@@ -1,0 +1,912 @@
+{
+  "mod_elements": [
+    {
+      "name": "Copperaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/CopperaxeItem.java",
+          "src/main/resources/assets/qlm/models/item/copperaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperhoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhoe",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/CopperhoeItem.java",
+          "src/main/resources/assets/qlm/models/item/copperhoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperpickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qlm/models/item/copperpickaxe.json",
+          "src/main/java/cn/org/qlm/www/item/CopperpickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Coppershovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppershovel",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/CoppershovelItem.java",
+          "src/main/resources/assets/qlm/models/item/coppershovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Coppersword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppersword",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/CopperswordItem.java",
+          "src/main/resources/assets/qlm/models/item/coppersword.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperhelmet",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhelmet",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/CopperhelmetItem.java",
+          "src/main/resources/assets/qlm/models/item/copperhelmet_boots.json",
+          "src/main/resources/assets/qlm/models/item/copperhelmet_leggings.json",
+          "src/main/resources/assets/qlm/models/item/copperhelmet_helmet.json",
+          "src/main/resources/assets/qlm/models/item/copperhelmet_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/copperaxe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperhoe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhoe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/copperhoe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperpickaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperpickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/copperpickaxe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Coppersword1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppersword_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/coppersword_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperhelmet1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhelmet_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/copperhelmet_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperchestplate1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperchestplate_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/copperchestplate_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperleggings1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperleggings_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/copperleggings_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperhorsearmor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhorsearmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qlm/models/item/copperhorsearmor.json",
+          "src/main/java/cn/org/qlm/www/item/CopperhorsearmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Copperhorsearmor1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperhorsearmor_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/copperhorsearmor_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperboots1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperboots_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/copperboots_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperarrow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperarrow",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/CopperarrowItem.java",
+          "src/main/resources/assets/qlm/models/item/copperarrow.json"
+        ]
+      }
+    },
+    {
+      "name": "Coppershears",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppershears",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qlm/models/item/coppershears.json",
+          "src/main/java/cn/org/qlm/www/item/CoppershearsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Coppershears1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppershears_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/coppershears_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperarrow1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperarrow_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/copperarrow_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Bronzeage",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronzeage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/advancements/bronzeage.json"
+        ]
+      }
+    },
+    {
+      "name": "Ccopper1",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ccopper_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/loot_tables/entities/ccopper_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qlm/models/item/glassaxe.json",
+          "src/main/java/cn/org/qlm/www/item/GlassaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Glasshoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasshoe",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/GlasshoeItem.java",
+          "src/main/resources/assets/qlm/models/item/glasshoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasspickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasspickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/GlasspickaxeItem.java",
+          "src/main/resources/assets/qlm/models/item/glasspickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassshovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassshovel",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/GlassshovelItem.java",
+          "src/main/resources/assets/qlm/models/item/glassshovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasssword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasssword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qlm/models/item/glasssword.json",
+          "src/main/java/cn/org/qlm/www/item/GlassswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Glasshelmet",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasshelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qlm/models/item/glasshelmet_helmet.json",
+          "src/main/resources/assets/qlm/models/item/glasshelmet_chestplate.json",
+          "src/main/java/cn/org/qlm/www/item/GlasshelmetItem.java",
+          "src/main/resources/assets/qlm/models/item/glasshelmet_boots.json",
+          "src/main/resources/assets/qlm/models/item/glasshelmet_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassingot",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/GlassingotItem.java",
+          "src/main/resources/assets/qlm/models/item/glassingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassingot1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassingot_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/glassingot_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassstick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassstick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qlm/models/item/glassstick.json",
+          "src/main/java/cn/org/qlm/www/item/GlassstickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Glassaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/glassaxe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasshoe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasshoe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/glasshoe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasspickaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasspickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/glasspickaxe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassshovel1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassshovel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/glassshovel_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasssword1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasssword_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/glasssword_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassstick1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassstick_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/glassstick_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasshelmet1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasshelmet_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/glasshelmet_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Glasschestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasschestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/glasschestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassleggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/glassleggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Glassboots1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glassboots_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/glassboots_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Musicdiscgouhuo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musicdiscgouhuo",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/MusicdiscgouhuoItem.java",
+          "src/main/resources/assets/qlm/models/item/musicdiscgouhuo.json"
+        ]
+      }
+    },
+    {
+      "name": "BOLIWQ",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boliwq",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/advancements/boliwq.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianhoe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qlm/models/item/obsidianhoe.json",
+          "src/main/java/cn/org/qlm/www/item/ObsidianhoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianaxe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/ObsidianaxeItem.java",
+          "src/main/resources/assets/qlm/models/item/obsidianaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianpaxel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianpaxel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qlm/models/item/obsidianpaxel.json",
+          "src/main/java/cn/org/qlm/www/item/ObsidianpaxelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianPickaxe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/ObsidianPickaxeItem.java",
+          "src/main/resources/assets/qlm/models/item/obsidian_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianshovel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qlm/models/item/obsidianshovel.json",
+          "src/main/java/cn/org/qlm/www/item/ObsidianshovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Obsidiansword",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidiansword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qlm/models/item/obsidiansword.json",
+          "src/main/java/cn/org/qlm/www/item/ObsidianswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/item/ObsidianArmorItem.java",
+          "src/main/resources/assets/qlm/models/item/obsidian_armor_helmet.json",
+          "src/main/resources/assets/qlm/models/item/obsidian_armor_chestplate.json",
+          "src/main/resources/assets/qlm/models/item/obsidian_armor_leggings.json",
+          "src/main/resources/assets/qlm/models/item/obsidian_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianhoe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianhoe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/obsidian_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/obsidian_axe1.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianpaxel1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianpaxel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/obsidian_paxel1.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianpickaxe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianpickaxe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/obsidian_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianshovel1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianshovel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/obsidian_shovel1.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidiansword1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidiansword_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/obsidian_sword1.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/obsidian_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianchestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/obsidian_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianleggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianleggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/obsidian_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidianboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/recipes/obsidian_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "ObsidianBodyguard",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_bodyguard",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/qlm/advancements/obsidian_bodyguard.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperswordShengWuBeiGongJuJiZhongShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppersword_sheng_wu_bei_gong_ju_ji_zhong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/procedures/CopperswordShengWuBeiGongJuJiZhongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperswordShengWuBeiGongJuJiZhongShi1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppersword_sheng_wu_bei_gong_ju_ji_zhong_shi_1",
+      "metadata": {
+        "files": [
+          "src/main/java/cn/org/qlm/www/procedures/CopperswordShengWuBeiGongJuJiZhongShi1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "gouhuo",
+      "files": [
+        "k3xt5-fjnvl"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Glasspickaxe",
+      "~CUSTOM:Copperpickaxe"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Glasshoe",
+      "~CUSTOM:Copperhoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:Glassshovel",
+      "~CUSTOM:Coppershovel"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Glasssword",
+      "~CUSTOM:Coppersword"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Glassaxe",
+      "~CUSTOM:Copperaxe"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Musicdiscgouhuo"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.qlm.obsidian_armor_chestplate": "Obsidian Armor胸甲",
+      "item.qlm.copperhelmet_chestplate": "Copperhelmet胸甲",
+      "item.qlm.musicdiscgouhuo.desc": "gouhuo",
+      "item.qlm.obsidianshovel": "Obsidianshovel",
+      "item.qlm.copperaxe": "Copperaxe",
+      "item.qlm.glasshelmet_leggings": "Glasshelmet护腿",
+      "item.qlm.copperarrow": "Copperarrow",
+      "item.qlm.glasshelmet_chestplate": "Glasshelmet胸甲",
+      "item.qlm.coppershears": "Coppershears",
+      "item.qlm.glassingot": "Glassingot",
+      "item.qlm.coppersword": "Coppersword",
+      "item.qlm.glassaxe": "Glassaxe",
+      "item.qlm.copperhoe": "Copperhoe",
+      "item.qlm.glasspickaxe": "Glasspickaxe",
+      "item.qlm.glasssword": "Glasssword",
+      "item.qlm.obsidian_armor_leggings": "Obsidian Armor护腿",
+      "item.qlm.copperhelmet_helmet": "Copperhelmet头盔",
+      "item.qlm.obsidianpaxel": "Obsidianpaxel",
+      "advancements.obsidian_bodyguard.title": "Obsidian Bodyguard",
+      "item.qlm.coppershovel": "Coppershovel",
+      "subtitles.gouhuo": "",
+      "item.qlm.musicdiscgouhuo": "music_disc_gouhuo",
+      "item.qlm.obsidian_armor_helmet": "Obsidian Armor头盔",
+      "advancements.bronzeage.title": "铜器时代",
+      "advancements.boliwq.descr": "看起来很容易碎",
+      "item.qlm.glasshelmet_boots": "Glasshelmet靴子",
+      "item.qlm.glasshoe": "Glasshoe",
+      "advancements.obsidian_bodyguard.descr": "黑曜石护体",
+      "item.qlm.copperhelmet_leggings": "Copperhelmet护腿",
+      "item.qlm.glassstick": "Glassstick",
+      "item.qlm.obsidianaxe": "Obsidianaxe",
+      "advancements.bronzeage.descr": "铜器时代",
+      "item.qlm.copperhelmet_boots": "Copperhelmet靴子",
+      "item.qlm.glassshovel": "Glassshovel",
+      "advancements.boliwq.title": "Looks fragile.",
+      "item.qlm.copperhorsearmor": "Copperhorsearmor",
+      "item.qlm.obsidiansword": "Obsidiansword",
+      "item.qlm.glasshelmet_helmet": "Glasshelmet头盔",
+      "item.qlm.obsidian_pickaxe": "Obsidian Pickaxe",
+      "item.qlm.copperpickaxe": "Copperpickaxe",
+      "item.qlm.obsidian_armor_boots": "Obsidian Armor靴子",
+      "item.qlm.obsidianhoe": "Obsidianhoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "qlm",
+    "modName": "七零喵自制mod",
+    "version": "1.0.6",
+    "description": "七零喵自制mod",
+    "author": "SevenZeroMeow",
+    "websiteURL": "https://www.qlm.org.cn",
+    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "d63741c396b49637d038a7ef1543c877-1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "cn.org.qlm.www"
+  },
+  "mcreatorVersion": 202500113416
+}

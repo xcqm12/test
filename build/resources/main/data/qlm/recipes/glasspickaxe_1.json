@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glass_pickaxe",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "qlm:glassingot"
+    },
+    "b": {
+      "item": "qlm:glassstick"
+    }
+  },
+  "result": {
+    "item": "qlm:glasspickaxe",
+    "count": 1
+  }
+}

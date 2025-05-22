@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "copper_horse_armor",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "result": {
+    "item": "qlm:copperhorsearmor",
+    "count": 1
+  }
+}

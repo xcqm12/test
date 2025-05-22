@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "glass_boots",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "qlm:glassingot"
+    },
+    {
+      "item": "qlm:glassingot"
+    },
+    {
+      "item": "qlm:glassingot"
+    },
+    {
+      "item": "qlm:glassingot"
+    }
+  ],
+  "result": {
+    "item": "qlm:glasshelmet_boots",
+    "count": 1
+  }
+}

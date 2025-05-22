@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "glass_hoe",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "qlm:glassingot"
+    },
+    {
+      "item": "qlm:glassingot"
+    },
+    {
+      "item": "qlm:glassstick"
+    },
+    {
+      "item": "qlm:glassstick"
+    }
+  ],
+  "result": {
+    "item": "qlm:glasshoe",
+    "count": 1
+  }
+}
